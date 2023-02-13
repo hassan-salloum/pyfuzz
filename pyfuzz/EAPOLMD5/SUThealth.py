@@ -96,6 +96,7 @@ def EAPOL_MD5_SUThealth_responseId(sourceinterface, sourcemacaddress, username, 
        md5= hashlib.md5(byt).hexdigest()
  
        msg = bytes.fromhex(md5)
+       EAPOL_MD5_SUThealth_responseCh(sourceinterface, sourcemacaddress, casenum, idCH, msg)
     # save logging error 
     except Exception as Argument:
            f = open ("log.txt", "a")
@@ -103,7 +104,7 @@ def EAPOL_MD5_SUThealth_responseId(sourceinterface, sourcemacaddress, username, 
            f.close()
            print(Fore.RED + "Failure:check" + Directorypath + "/log.txt for more details"+Style.RESET_ALL)
            sys.exit(1)  
-    EAPOL_MD5_SUThealth_responseCh(sourceinterface, sourcemacaddress, casenum, idCH, msg)
+    
 ########################################################################################################################################## 
 
 
