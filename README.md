@@ -28,9 +28,9 @@ PyFuzz
 
 ### pyfuzz Client Templates Status (release-1)
 -------------------------------------------------------------------------------------------------------------------------------
-| Protocols | Templates | Readiness | Tested-Verified | Templates-Version | Developer.name |
+| Protocols | Templates status | Readiness | Tested-Verified | Templates-Version | Developer.name |
 | --- | --- | --- | --- | --- | --- |
-| EAP | EAPOL-MD5 | On-Going | Ubuntu 20.04.5 / Kali 2022.4  | 1.0.0 | VraiHack
+| EAP | EAPOL-MD5 | OnGoing: addeding more invalid cases | Ubuntu 20.04.5 / Kali 2022.4  | 1.0.0 | VraiHack
 | EAP | EAPOL-TLS | Not-Started | ...... | 1.0.0 | NotAssigned
 | RADIUS | eap-md5-response | Not-Started | ...... | 1.0.0 | NotAssigned
 | RADIUS | client access-response | Not-Started | ...... | 1.0.0 | NotAssigned
