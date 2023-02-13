@@ -7,7 +7,7 @@ pyfuzz responsable to verify the SUT health after the sending of each malformed 
 
 #### Please note: pyfuzz will cover other protocols but for the moment pyfuzz focus only on EAPOL/RADIUS fuzzing.
 
-### PyFuzz Funtionality
+### PyFuzz Funtionality ([youtube](https://www.youtube.com/watch?v=jLkujI5uhn4))
 -------------------------------------------------------------------------------------------------------------------------------
 Once you install pyfuzz by following these steps:
 ```diff
