@@ -116,7 +116,7 @@ def EAPOL_MD5_INTERPORABILITY():
                self.val3 = s[1][EAP].code 
                sleep(1)               
                if self.val3 == 4:
-                     print(Fore.RED + "Error:PyFuzz receive Failure msg from authenticator on its EAP-Response"+Style.RESET_ALL)
+                     print(Fore.RED + "Error:pyfuzz receive Failure msg from authenticator on its EAP-Response"+Style.RESET_ALL)
                      print(Fore.RED + "Error:Repeat Test again or verifiy your connectivity then repeat the test"+Style.RESET_ALL)
                else:
                      self.val1 = s[1][EAP_MD5].id
@@ -193,7 +193,9 @@ def EAPOL_MD5_INTERPORABILITY():
        print("Interoperability " + Fore.RED + "\033[1mFAILED\033[0m " + Fore.WHITE + ",Fuzzing not ready to use:")
        print("please verify your indentity username and password then re-test")
     else:
-       print("Interoperability " + Fore.GREEN + "\033[1mPASSED\033[0m " + Fore.WHITE + ",Fuzzing ready to use")    
+       print("Interoperability " + Fore.GREEN + "\033[1mPASSED\033[0m " + Fore.WHITE + ",Fuzzing ready to use")
+       print("sending LOGOFF EAPOL")
+       sendp(Ether(src=sourcemacaddress, dst="01:80:c2:00:00:03")/EAPOL(type=2), iface=sourceinterface)  
        InvalidMD5.EAPOL_MD5_FUZZING(sourceinterface, sourcemacaddress, username, hexdump2pass)
        print(Style.RESET_ALL)
 

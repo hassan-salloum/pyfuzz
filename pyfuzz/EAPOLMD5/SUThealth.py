@@ -96,15 +96,15 @@ def EAPOL_MD5_SUThealth_responseId(sourceinterface, sourcemacaddress, username, 
        md5= hashlib.md5(byt).hexdigest()
  
        msg = bytes.fromhex(md5)
-       EAPOL_MD5_SUThealth_responseCh(sourceinterface, sourcemacaddress, casenum, idCH, msg)
     # save logging error 
     except Exception as Argument:
            f = open ("log.txt", "a")
            f.write(str(Argument))
            f.close()
            print(Fore.RED + "Failure:check" + Directorypath + "/log.txt for more details"+Style.RESET_ALL)
-           sys.exit(1)  
-    
+           sys.exit(1)
+            
+    EAPOL_MD5_SUThealth_responseCh(sourceinterface, sourcemacaddress, casenum, idCH, msg) 
 ########################################################################################################################################## 
 
 
@@ -112,8 +112,8 @@ def EAPOL_MD5_SUThealth_responseId(sourceinterface, sourcemacaddress, username, 
 
 ########################################################################################################################################## 
 def EAPOL_MD5_SUThealth_responseCh(sourceinterface, sourcemacaddress, casenum, idCH, msg):
-# send EAP-RESPONSE Challenge and sniff "succ,fail" from the Success or Fail
-    class snifthread_3(Thread):
+    # send EAP-RESPONSE Challenge and sniff "succ,fail" from the Success or Fail
+    class snifthread3(Thread):
           def __init__(self):
               Thread.__init__(self)
           def run(self):   
