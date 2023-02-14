@@ -7,7 +7,7 @@ pyfuzz responsable to verify the SUT health after the sending of each malformed 
 
 #### Please note: pyfuzz will cover other protocols but for the moment pyfuzz focus only on EAPOL/RADIUS fuzzing.
 
-### PyFuzz Funtionality ([youtube](https://www.youtube.com/watch?v=jLkujI5uhn4))
+### PyFuzz Funtionality
 -------------------------------------------------------------------------------------------------------------------------------
 Once you install pyfuzz by following these steps:
 ```diff
@@ -28,13 +28,13 @@ PyFuzz
 
 ### pyfuzz Client Templates Status (release-1)
 -------------------------------------------------------------------------------------------------------------------------------
-| Protocols | Templates status | Readiness | Tested-Verified | Templates-Version | Developer.name |
-| --- | --- | --- | --- | --- | --- |
-| EAP | EAPOL-MD5 | OnGoing: adding more invalid cases | Ubuntu 20.04.5 / Kali 2022.4  | 1.0.0 | VraiHack
-| EAP | EAPOL-TLS | Not-Started | ...... | 1.0.0 | NotAssigned
-| RADIUS | eap-md5-response | Not-Started | ...... | 1.0.0 | NotAssigned
-| RADIUS | client access-response | Not-Started | ...... | 1.0.0 | NotAssigned
-| RADIUS | client accounting-response | Not-Started | ...... | 1.0.0 | NotAssigned
+| Protocols | Templates status | Readiness | Tested-Verified | Templates-Version | Developer.name | Youtube
+| --- | --- | --- | --- | --- | --- | --- |
+| EAP | EAPOL-MD5 | OnGoing: adding more invalid cases | Ubuntu 20.04.5 / Kali 2022.4  | 1.0.0 | VraiHack | [youtube](https://www.youtube.com/watch?v=jLkujI5uhn4)
+| EAP | EAPOL-TLS | Not-Started | ...... | 1.0.0 | NotAssigned --- |
+| RADIUS | eap-md5-response | Not-Started | ...... | 1.0.0 | NotAssigned --- |
+| RADIUS | client access-response | Not-Started | ...... | 1.0.0 | NotAssigned --- |
+| RADIUS | client accounting-response | Not-Started | ...... | 1.0.0 | NotAssigned --- |
 
 release-1: mean only one template ready to use
 
