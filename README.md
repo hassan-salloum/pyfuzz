@@ -11,7 +11,7 @@ pyfuzz responsable to verify the SUT health after the sending of each malformed 
 -------------------------------------------------------------------------------------------------------------------------------
 Once you install pyfuzz by following these steps:
 ```diff
-git clone https://github.com/VraiHack/PyFuzz
+git clone https://github.com/VraiHack/pyfuzz
 cd PyFuzz
 pip install .
 PyFuzz
@@ -40,4 +40,4 @@ release-1: mean only one template ready to use
 
 These days, i am writing a book in HW security beside of my work so i really don't have time to complete this project alone even if i have all the code steps in my head ,concerning other templates but no time to type them.
 
-For that, if you Want to contribute that will be Great, you will learn a lot! Please take a few minutes to [read this](https://github.com/VraiHack/PyFuzz/blob/main/contribute.md)!
+For that, if you Want to contribute that will be Great, you will learn a lot! Please take a few minutes to [read this](https://github.com/VraiHack/pyfuzz/blob/main/contribute.md)!
