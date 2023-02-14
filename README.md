@@ -24,7 +24,7 @@ PyFuzz
 
 4- If interoporability "passed" the end user will be asked to choose Fuzzing test cases to run.
 
-5- The end user will be reminded to check and verify the health, alarms, status of the SUT during the Fuzz.
+5- The end user will be responsable to check and verify the health, alarms, status of the SUT during the Fuzz.
 
 ### pyfuzz Client Templates Status (release-1)
 -------------------------------------------------------------------------------------------------------------------------------
