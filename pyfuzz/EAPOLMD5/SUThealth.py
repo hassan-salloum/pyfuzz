@@ -41,7 +41,7 @@ def EAPOL_MD5_SUThealth_start(sourceinterface, sourcemacaddress, username, hexdu
     thread2.join()
  
     if thread1.val2 != 1 :
-       print("   Case-DI:" + str(casenum) + "-------------->" + Fore.RED+ "\033[1mFAILED\033[0m"+Style.RESET_ALL) 
+       print("   Case-ID:" + str(casenum) + "-------------->" + Fore.RED+ "\033[1mFAILED\033[0m"+Style.RESET_ALL) 
     else:     
        idREQ = thread1.val1
        EAPOL_MD5_SUThealth_responseId(sourceinterface, sourcemacaddress, username, hexdump2pass, casenum, idREQ)
@@ -60,7 +60,7 @@ def EAPOL_MD5_SUThealth_responseId(sourceinterface, sourcemacaddress, username, 
                self.val3 = s[1][EAP].code 
                sleep(1)               
                if self.val3 == 4:
-                     print("   Case-DI: " + str(casenum) + "-------------->" + Fore.RED+ "\033[1m FAILED\033[0m" + Style.RESET_ALL)                     
+                     print("   Case-ID: " + str(casenum) + "-------------->" + Fore.RED+ "\033[1m FAILED\033[0m" + Style.RESET_ALL)                     
                else:
                      self.val1 = s[1][EAP_MD5].id
                      sleep(1)
@@ -136,8 +136,8 @@ def EAPOL_MD5_SUThealth_responseCh(sourceinterface, sourcemacaddress, casenum, i
     thread6.join()
     codeSF = thread5.val1
     if codeSF == 4:
-       print("   Case-DI: " + str(casenum) + "-------------->" + Fore.RED + "\033[1m FAILED\033[0m"+ Style.RESET_ALL)    
+       print("   Case-ID: " + str(casenum) + "-------------->" + Fore.RED + "\033[1m FAILED\033[0m"+ Style.RESET_ALL)    
        
     else:
-       print("   Case-DI: " + str(casenum) + "-------------->" + Fore.GREEN + "\033[1m PASSED\033[0m"+ Style.RESET_ALL)         
+       print("   Case-ID: " + str(casenum) + "-------------->" + Fore.GREEN + "\033[1m PASSED\033[0m"+ Style.RESET_ALL)         
        print(Style.RESET_ALL)
