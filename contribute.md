@@ -49,7 +49,7 @@ First, This is the Project tree:
 
 4- Install the requirement-dev.txt : pip3 install -r requirements-dev.txt
 
-5- Inside the "templates" repo create a new folder named (X e.g EAPOLTLS in case you want to develop the ARP).
+5- Inside the "templates" repo create a new folder named (X e.g EAPOLTLS in case you want to develop the EAPOLTLS).
 
 6- Inside the "ARP" folder create:
 - __init__.py : empty just for building package purpose
