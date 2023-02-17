@@ -54,8 +54,8 @@ First, This is the Project tree:
 6- Inside the "ARP" folder create:
 - __init__.py : empty just for building package purpose
 - SUThealth.py : this will be used to verify the health ofthe SUT after the sending of malformed packets
-- TLSValid.py : where the "ARPValid.py" will be used in the Interoporability check
-- TLSInvalid.py : and the "ARPInvalid.py" will be used to send tests cases (malformed packets).
+- TLSValid.py : where the "TLSValid.py" will be used in the Interoporability check
+- TLSInvalid.py : and the "TLSInvalid.py" will be used to send tests cases (malformed packets).
 - RESULTS : added to it any empty file (for cloning pupose an empty repo can't be pushed to github, you can take DoNotDelete.pcap from EAPOLMD5) 
 
 7- Test your code: python3 /path/to/pyfuzz/pyfuzz/main.py
