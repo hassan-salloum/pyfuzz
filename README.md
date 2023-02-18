@@ -28,7 +28,7 @@ PyFuzz
 
 ### pyfuzz Client Templates Status (release-1)
 -------------------------------------------------------------------------------------------------------------------------------
-| Protocols | Templates status | Readiness | Tested-Verified | Templates-Version | Developer.name | Youtube
+| Protocols | Templates status | Readiness | Tested-Verified | Templates-Version | Developer.name | Tutorial
 | --- | --- | --- | --- | --- | --- | --- |
 | EAP | EAPOL-MD5 | OnGoing: adding more invalid cases | Ubuntu 20.04.5 / Kali 2022.4  | 1.0.0 | VraiHack | [youtube](https://www.youtube.com/watch?v=jLkujI5uhn4)
 | EAP | EAPOL-TLS | Not-Started | ...... | 1.0.0 | NotAssigned --- |
