@@ -8,7 +8,7 @@
 
 4- You will receive a monthly notification to ensure progression (in absence of response on our emails, we will consider that your are no longer interest in the contribution)
 
-5- Mergin can be done after code review and test/alidation for our side.
+5- Mergin can be done after code review and test/validation for our side.
 
 
 #### Technical steps, you may need to follow if you want to contribute in pyfuzz
@@ -51,7 +51,7 @@ First, This is the Project tree:
 
 5- Inside the "templates" repo create a new folder named (X e.g EAPOLTLS in case you want to develop the EAPOLTLS).
 
-6- Inside the "ARP" folder create:
+6- Inside the "EAPOLTLS" folder create:
 - __init__.py : empty just for building package purpose
 - SUThealth.py : this will be used to verify the health ofthe SUT after the sending of malformed packets
 - TLSValid.py : where the "TLSValid.py" will be used in the Interoporability check
