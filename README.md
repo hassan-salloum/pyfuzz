@@ -1,7 +1,7 @@
 # pyfuzz
-EAP/RADIUS Mutation Protocol Fuzzing tool developed in python, act like "client" that will send malformed RFC packets (e.g malformed http-get) toward SUT/DUT. 
+EAP/RADIUS Mutation Protocol Fuzzing tool written in python act like client/server that will send malformed packets toward SUT/DUT. 
 
-PyFuzz is a linux tool which use scapy as a principal module. The benefits from PyFuzz is to allow the end user to added more complex test cases depending on the SUT functionality.
+PyFuzz use scapy as a principal module. The benefits from PyFuzz is to allow the end user to added more complex test cases depending on the SUT functionality.
 
 pyfuzz responsable to verify the SUT health after the sending of each malformed packets.
 
