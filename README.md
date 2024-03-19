@@ -3,7 +3,7 @@ EAP Mutation Protocol Fuzzing tool written in python act like client/server that
 PyFuzz use scapy as a principal module. The benefits from PyFuzz is to allow the end user to added more complex test cases depending on the SUT functionality.
 pyfuzz responsable to verify the SUT health after the sending of each malformed packets.
 
-### PyFuzz Funtionality
+### Pyfuzz Funtionality
 -------------------------------------------------------------------------------------------------------------------------------
 Once you install pyfuzz by following these steps:
 ```diff
