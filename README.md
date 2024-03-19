@@ -1,11 +1,10 @@
 # pyfuzz
-EAP/RADIUS Mutation Protocol Fuzzing tool written in python act like client/server that will send malformed packets toward SUT/DUT. 
+EAP Mutation Protocol Fuzzing tool written in python act like client/server that will send malformed packets toward SUT/DUT. 
 
 PyFuzz use scapy as a principal module. The benefits from PyFuzz is to allow the end user to added more complex test cases depending on the SUT functionality.
 
 pyfuzz responsable to verify the SUT health after the sending of each malformed packets.
 
-#### Please note: pyfuzz will cover other protocols but for the moment pyfuzz focus only on EAPOL/RADIUS fuzzing.
 
 ### PyFuzz Funtionality
 -------------------------------------------------------------------------------------------------------------------------------
@@ -31,10 +30,6 @@ PyFuzz
 | Protocols | Templates status | Readiness | Tested-Verified | Templates-Version | Developer.name | Tutorial
 | --- | --- | --- | --- | --- | --- | --- |
 | EAP | EAPOL-MD5 | OnGoing: adding more invalid cases | Ubuntu 20.04.5 / Kali 2022.4  | 1.0.0 | VraiHack | [youtube](https://www.youtube.com/watch?v=jLkujI5uhn4)
-| EAP | EAPOL-TLS | Not-Started | ...... | 1.0.0 | NotAssigned --- |
-| RADIUS | eap-md5-response | Not-Started | ...... | 1.0.0 | NotAssigned --- |
-| RADIUS | client access-response | Not-Started | ...... | 1.0.0 | NotAssigned --- |
-| RADIUS | client accounting-response | Not-Started | ...... | 1.0.0 | NotAssigned --- |
 
 release-1: mean only one template ready to use
 
