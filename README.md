@@ -12,7 +12,7 @@ cd PyFuzz
 pip install .
 PyFuzz
 ``` 
-1- The user will be asked to choose a Fuzzing protocol and a Fuzzing templates
+1- The user will be asked to choose a Fuzzing protocol (EAP or RADIUS) and a Fuzzing templates (for the moment only support EAP)
 
 2- Then, he will be aksed to configure PyFuzz according to the slected template.
 
