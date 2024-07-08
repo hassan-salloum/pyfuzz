@@ -10,7 +10,7 @@ Once you install pyfuzz by following these steps:
 git clone https://github.com/VraiHack/pyfuzz
 cd PyFuzz
 pip install .
-PyFuzz
+python3 /path/to/pyfuzz/pyfuzz/main.py
 ``` 
 1- The user will be asked to choose a Fuzzing protocol (EAP or RADIUS) and a Fuzzing templates (for the moment only support EAP)
 
